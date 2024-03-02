@@ -1,10 +1,10 @@
 const mongoose= require("mongoose");
-const { Schema } = require("mongoose");
+const { Schema } = require("she");
 const modelOptions = require("./model.options.js");
 
 export default mongoose.model(
     "Favorite",
-    mongoose.Schema({
+    new mongoose.Schema({
         user: {
             type: Schema.Types.ObjectId,
             ref: "User",

@@ -4,7 +4,7 @@ const modelOptions = require("./model.options.js");
 
 export default mongoose.model(
     "Review",
-    mongoose.Schema({
+    new mongoose.Schema({
         user: {
             type: Schema.Types.ObjectId,
             ref: "User",
