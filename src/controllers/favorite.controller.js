@@ -52,7 +52,7 @@ const getFavoritesOfUser = async (req, res) => {
     }
 };
 
-export default {
+module.exports = {
     addFavorite,
     removeFavorite,
     getFavoritesOfUser

@@ -1,8 +1,8 @@
 const mongoose= require("mongoose");
-const { Schema } = require("she");
+const { Schema } = require("mongoose");
 const modelOptions = require("./model.options.js");
 
-export default mongoose.model(
+module.exports = mongoose.model(
     "Favorite",
     new mongoose.Schema({
         user: {

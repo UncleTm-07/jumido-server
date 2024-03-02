@@ -50,4 +50,4 @@ userSchema.methods.validPassword = function (password) {
 
 const userModel = mongoose.model("User", userSchema);
 
-export default  userModel;
+module.exports = userModel;

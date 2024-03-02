@@ -25,7 +25,7 @@ const personMedias = async (req, res) => {
     }
 };
 
-export default {
+module.exports = {
     personDetail,
     personMedias
 }

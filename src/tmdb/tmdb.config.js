@@ -7,4 +7,4 @@ const getUrl = (endpoint, params) => {
     return `${baseUrl}${endpoint}?api_key=${key}&${qs}`;
 };
 
-export default { getUrl };
+module.exports = { getUrl };

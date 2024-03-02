@@ -5,4 +5,4 @@ const get = async (url) => {
     return response.data;
 };
 
-export default { get };
+module.exports = { get };

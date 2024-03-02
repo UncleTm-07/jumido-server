@@ -77,10 +77,10 @@ const getDetails = async (req, res) => {
     }
 };
 
-export default {
+module.exports = {
     getList,
     getGenres,
     search,
     getDetails
-};
+}
 

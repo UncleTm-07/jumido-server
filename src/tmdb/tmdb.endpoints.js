@@ -1,4 +1,4 @@
-import tmdbConfig from "./tmdb.config";
+const tmdbConfig = require("./tmdb.config");
 
 const tmdbEndpoints = {
     mediaList: ({ mediaType, mediaCategory, page }) => tmdbConfig.getUrl(
@@ -33,4 +33,4 @@ const tmdbEndpoints = {
     ),
 };
 
-export default  tmdbEndpoints;
+module.exports = tmdbEndpoints;

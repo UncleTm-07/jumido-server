@@ -55,7 +55,7 @@ const getReviewsOfUser = async (req, res) => {
     }
 }
 
-export default {
+module.exports = {
     createReview,
     removeReview,
     getReviewsOfUser

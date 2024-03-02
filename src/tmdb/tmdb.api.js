@@ -34,4 +34,4 @@ const tmdbApi = {
     ),
 };
 
-export default tmdbApi;
+module.exports = tmdbApi;

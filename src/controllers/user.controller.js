@@ -4,6 +4,7 @@ const responseHandler = require("../handlers/response.handler");
 
 const signup = async (req, res) => {
     try {
+        console.log(1)
         const { username, password, displayName } = req.body;
 
         const checkUser = await userModel.findOne({ username });
@@ -102,7 +103,7 @@ const getInfo = async (req, res) => {
     }
 };
 
-export default {
+module.exports = {
     signin,
     signup,
     updatePassword,
